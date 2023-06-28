@@ -7,7 +7,7 @@ public class Switch {
 	public static void main(String[] args) {
 
 		Scanner intero = new Scanner(System.in);
-		System.out.println("Inserisci un numero intero: ");
+		System.out.print("Inserisci un numero intero: ");
 		int num = intero.nextInt();
 
 		if (num >= 0 && num <= 3) {
@@ -35,6 +35,7 @@ public class Switch {
 			break;
 		case 3:
 			numLet = "tre";
+			break;
 		default:
 			numLet = "numero non valido";
 			break;

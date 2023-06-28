@@ -20,6 +20,7 @@ public class IfElse {
 		System.out.println("Verifica se un anno è bisestile");
 		System.out.print("Inserisci un anno: ");
 		int year = scanner.nextInt();
+		scanner.nextLine(); // Consuma il carattere di nuova riga nel buffer
 
 		if (annoBisestile(year)) {
 			System.out.println("L'anno " + year + " è bisestile");

@@ -8,7 +8,7 @@ public class While {
 		String input;
 
 		do {
-			System.out.println("Inserisci una stringa (':q' per uscire): ");
+			System.out.print("Inserisci una stringa (':q' per uscire): ");
 			input = pippo.nextLine();
 
 			if (!input.equals(":q")) {
@@ -24,9 +24,9 @@ public class While {
 			char character = input.charAt(i);
 			System.out.println(character);
 			if (i != input.length() - 1) {
-				System.out.println(", ");
+				System.out.println(",");
 			}
 		}
-		System.out.println();
+		System.out.println("Programma terminato");
 	}
 }
